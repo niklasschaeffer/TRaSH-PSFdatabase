@@ -1,0 +1,23 @@
+name: German DL 2
+description: ''
+tags:
+- Release Title
+conditions:
+- name: NOT German DL
+  type: release_title
+  required: true
+  negate: true
+  pattern: NOT German DL
+- name: German
+  type: language
+  required: true
+  negate: false
+  language: german
+  exceptLanguage: false
+- name: English
+  type: language
+  required: true
+  negate: false
+  language: english
+  exceptLanguage: false
+tests: []

@@ -1,0 +1,22 @@
+name: German DL (undefined)
+description: ''
+tags:
+- Release Title
+conditions:
+- name: German
+  type: language
+  required: true
+  negate: false
+  language: german
+  exceptLanguage: false
+- name: DL
+  type: release_title
+  required: false
+  negate: false
+  pattern: DL
+- name: ML
+  type: release_title
+  required: false
+  negate: false
+  pattern: ML
+tests: []

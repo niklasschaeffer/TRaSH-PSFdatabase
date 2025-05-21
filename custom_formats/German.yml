@@ -1,22 +1,22 @@
 name: German
 description: ''
 tags:
-- German
+- Release Title
 conditions:
-- name: German
-  type: language
-  required: true
-  negate: false
+- exceptLanguage: false
   language: german
-  exceptLanguage: false
-- name: DL
-  type: release_title
+  name: German
+  negate: false
   required: true
+  type: language
+- name: DL
   negate: true
   pattern: DL
-- name: Not Subbed
-  type: release_title
   required: true
+  type: release_title
+- name: Not Subbed
   negate: true
   pattern: Not Subbed
+  required: true
+  type: release_title
 tests: []

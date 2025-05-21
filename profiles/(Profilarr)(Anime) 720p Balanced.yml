@@ -9,6 +9,12 @@ minCustomFormatScore: 0
 upgradeUntilScore: 10000
 minScoreIncrement: 100
 custom_formats:
+- name: German
+  score: 5000
+- name: German DL (undefined)
+  score: 4500
+- name: German DL 2
+  score: 4000
 - name: TRaSH Anime BD Tier 01
   score: 1400
 - name: TRaSH Anime BD Tier 02
