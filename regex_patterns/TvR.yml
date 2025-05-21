@@ -1,0 +1,6 @@
+name: TvR
+pattern: ^(TvR)$
+description: ''
+tags:
+- Release Group
+tests: []

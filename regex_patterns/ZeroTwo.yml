@@ -1,0 +1,6 @@
+name: ZeroTwo
+pattern: ^(ZeroTwo)$
+description: ''
+tags:
+- Release Group
+tests: []

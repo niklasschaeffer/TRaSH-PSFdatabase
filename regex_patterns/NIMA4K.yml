@@ -1,0 +1,6 @@
+name: NIMA4K
+pattern: ^(NIMA4K)$
+description: ''
+tags:
+- Release Group
+tests: []

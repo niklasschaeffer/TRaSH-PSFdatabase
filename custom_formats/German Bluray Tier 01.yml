@@ -1,0 +1,63 @@
+name: German Bluray Tier 01
+description: ''
+tags:
+- Release Group
+- Release Title
+- Source
+conditions:
+- name: ZeroTwo
+  negate: false
+  pattern: ZeroTwo
+  required: false
+  type: release_group
+- name: ZeroTwo Aliases
+  negate: false
+  pattern: ZeroTwo Aliases
+  required: false
+  type: release_group
+- name: TvR
+  negate: false
+  pattern: TvR
+  required: false
+  type: release_group
+- name: TSCC
+  negate: false
+  pattern: TSCC
+  required: false
+  type: release_group
+- name: NIMA4K
+  negate: false
+  pattern: NIMA4K
+  required: false
+  type: release_group
+- name: TVS
+  negate: false
+  pattern: TVS
+  required: false
+  type: release_group
+- name: PXL
+  negate: false
+  pattern: PXL
+  required: false
+  type: release_group
+- name: CNY
+  negate: false
+  pattern: CNY
+  required: false
+  type: release_group
+- name: WeebPinn
+  negate: false
+  pattern: WeebPinn
+  required: false
+  type: release_group
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Not REMUX
+  negate: true
+  required: true
+  source: bluray_raw
+  type: source
+tests: []
