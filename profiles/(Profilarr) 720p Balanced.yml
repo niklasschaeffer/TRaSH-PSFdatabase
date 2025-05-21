@@ -1,4 +1,4 @@
-name: '[Profilarr] 720p Balanced'
+name: (Profilarr) 720p Balanced
 description: German SHD Profile
 tags:
 - 720p
@@ -13,6 +13,8 @@ custom_formats:
   score: 4500
 - name: German DL 2
   score: 4000
+- name: German Bluray Tier 01
+  score: 2900
 - name: 720p
   score: 25
 - name: Crunchyroll
