@@ -106,6 +106,14 @@ qualities:
   name: DVD
 - id: 24
   name: SDTV
+- id: 9
+  name: WEBDL-1080p
+- id: 10
+  name: Bluray-1080p
+- id: 8
+  name: Remux-1080p
+- id: 11
+  name: WEBRip-1080p
 upgrade_until:
   id: 13
   name: Bluray-720p
