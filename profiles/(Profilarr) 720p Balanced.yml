@@ -50,16 +50,6 @@ custom_formats:
 - name: TRaSH Anime Raws
   score: -10000
 qualities:
-- id: -4
-  name: WEB 480p
-  description: ''
-  qualities:
-  - id: 19
-    name: WEBDL-480p
-  - id: 20
-    name: WEBRip-480p
-  - id: 18
-    name: Bluray-480p
 - id: 13
   name: Bluray-720p
 - id: -3
@@ -72,6 +62,16 @@ qualities:
     name: WEBRip-720p
   - id: 14
     name: WEBDL-720p
+- id: -4
+  name: WEB 480p
+  description: ''
+  qualities:
+  - id: 19
+    name: WEBDL-480p
+  - id: 20
+    name: WEBRip-480p
+  - id: 18
+    name: Bluray-480p
 - id: 22
   name: DVD
 - id: 24
